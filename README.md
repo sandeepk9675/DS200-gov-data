@@ -19,6 +19,10 @@ This project analyzes the **State/UT-wise Suicide Committed by Farmers** data fr
 - `RS_Session_254_AU_496_1.csv` - Raw dataset
 - `README.md` - This documentation file
 - `requirements.txt` - Python package dependencies
+- `images/` - Directory containing high-resolution plot images
+  - `scatter_plot.png` - Correlation analysis between 2018 and 2019 data
+  - `box_plot.png` - Distribution analysis showing variability across states
+  - `bar_plot.png` - Top 10 states comparison and total suicide counts
 
 ## Analysis Summary
 
@@ -36,20 +40,32 @@ This project analyzes the **State/UT-wise Suicide Committed by Farmers** data fr
 ## Visualizations Created
 
 ### 1. Scatter Plot: 2018 vs 2019 Comparison
+
+![Scatter Plot](images/scatter_plot.png)
+
 - **Purpose**: Examine correlation between consecutive years
 - **Key Finding**: Strong positive correlation (r = 0.976)
 - **Insight**: States with high suicide rates in 2018 maintained similar patterns in 2019
+- **Analysis**: The scatter plot shows a near-perfect linear relationship between farmer suicides in 2018 and 2019, with Maharashtra and Karnataka as clear outliers. The strong correlation indicates systemic factors rather than random variation.
 
 ### 2. Box Plot: Distribution Analysis
+
+![Box Plot](images/box_plot.png)
+
 - **Purpose**: Show variability and distribution across states
 - **Key Finding**: High variability with most states having low numbers but few extreme outliers
 - **Statistics**: 
   - 2018: Mean = 160.1, Median = 2.0
   - 2019: Mean = 165.5, Median = 0.0
+- **Analysis**: The box plot reveals extreme right-skewed distributions for both years, with the majority of states reporting very low suicide numbers (median near 0) while a few states show exceptionally high values. The outliers (Maharashtra, Karnataka, Telangana) dominate the statistics.
 
 ### 3. Bar Plot: Top 10 Affected States
-- **Purpose**: Identify most affected regions
+
+![Bar Plot](images/bar_plot.png)
+
+- **Purpose**: Identify most affected regions and compare year-over-year changes
 - **Key Finding**: Maharashtra and Karnataka are disproportionately affected
+- **Analysis**: The dual bar chart clearly shows Maharashtra's dominant position in both years, with a concerning increase from 2018 to 2019. Karnataka maintains high but stable numbers, while Telangana shows a significant decrease, potentially indicating successful policy interventions.
 
 ## Top 5 Most Affected States (2018 + 2019 Combined)
 
