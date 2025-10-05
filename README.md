@@ -85,11 +85,6 @@ This project analyzes the **State/UT-wise Suicide Committed by Farmers** data fr
 - **matplotlib (>=3.4.0)**: Data visualization and plotting
 - **numpy (>=1.21.0)**: Numerical computations and array operations
 
-### Optional Libraries
-- **jupyter**: Interactive notebook environment
-- **seaborn**: Enhanced statistical visualizations
-- **scipy**: Additional statistical functions
-
 ### Analysis Methodology
 1. **Data Cleaning**: Handled missing values, type conversions
 2. **Exploratory Data Analysis**: Statistical summaries, data quality checks
