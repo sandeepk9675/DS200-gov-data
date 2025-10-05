@@ -18,6 +18,7 @@ This project analyzes the **State/UT-wise Suicide Committed by Farmers** data fr
 - `plot_function.ipynb` - Main Jupyter notebook containing the analysis and visualizations
 - `RS_Session_254_AU_496_1.csv` - Raw dataset
 - `README.md` - This documentation file
+- `requirements.txt` - Python package dependencies
 
 ## Analysis Summary
 
@@ -73,10 +74,21 @@ This project analyzes the **State/UT-wise Suicide Committed by Farmers** data fr
 
 ## Technical Implementation
 
-### Libraries Used
-- **pandas**: Data manipulation and analysis
-- **matplotlib.pyplot**: Data visualization
-- **numpy**: Numerical computations
+### System Requirements
+- **Python**: 3.7 or higher
+- **Operating System**: Windows, macOS, or Linux
+- **Memory**: Minimum 4GB RAM (8GB recommended)
+- **Storage**: ~50MB for data and dependencies
+
+### Core Libraries Used
+- **pandas (>=1.3.0)**: Data manipulation and analysis
+- **matplotlib (>=3.4.0)**: Data visualization and plotting
+- **numpy (>=1.21.0)**: Numerical computations and array operations
+
+### Optional Libraries
+- **jupyter**: Interactive notebook environment
+- **seaborn**: Enhanced statistical visualizations
+- **scipy**: Additional statistical functions
 
 ### Analysis Methodology
 1. **Data Cleaning**: Handled missing values, type conversions
@@ -113,10 +125,36 @@ This analysis was conducted as part of **DS 200 Research Methods** coursework, d
 
 ## How to Reproduce Analysis
 
-1. Clone this repository
-2. Ensure Python environment has required libraries (pandas, matplotlib, numpy)
-3. Open `plot_function.ipynb` in Jupyter Notebook/JupyterLab
-4. Run all cells sequentially
+### Prerequisites
+- Python 3.7 or higher
+- pip (Python package installer)
+
+### Installation and Setup
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/sandeepk9675/DS200-gov-data.git
+   cd DS200-gov-data
+   ```
+
+2. **Install required packages**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+   Or install packages individually:
+   ```bash
+   pip install pandas numpy matplotlib jupyter notebook
+   ```
+
+3. **Launch Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
+
+4. **Open and run the analysis**
+   - Open `plot_function.ipynb` in Jupyter Notebook/JupyterLab
+   - Run all cells sequentially from top to bottom
 
 ## Citation
 
